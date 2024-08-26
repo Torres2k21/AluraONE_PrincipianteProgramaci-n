@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador/Desencriptador</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <div class="logo">
+        <img src="scr/AluraLogo.png" alt="logoAlura">
+      </div>
+      <div class="codifaier">
+        <textarea id="inputText" placeholder="Ingrese el texto aquí"></textarea>
+        <div class="note">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16">
+            <path fill="currentColor"
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2a1 1 0 0 0 0-2" />
+          </svg>
+          Solo letras minúsculas y sin acentos
+        </div>
+        <div class="buttons">
+          <button id="encryptBtn">Encriptar</button>
+          <button id="decryptBtn">Desencriptar</button>
+        </div>
+      </div>
+    </div>
+    <div class="right-panel">
+      <div class="content-right-panel">
+        <img class="muñeco" src="/scr/Muñeco.png" alt="Illustration">
+        <div class="parraf-right-panel">
+          <p class="no-message">Ningún mensaje fue encontrado</p>
+          <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
